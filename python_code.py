@@ -159,9 +159,24 @@ print(f"{board[0]}\n{board[1]}\n{board[2]}")
 print(f"The winner is {the_winner}")
 
 
+"""
+expected output:
 
+Current player is X
+['X', 'X', 'O']
+['O', 'O', 'X']
+['X', 'O', 'X']
+The winner is drew
 
+or:
 
+Current player is O
+['O', 'O', 'X']
+['X', 'X', 'O']
+['O', 'X', 'O']
+The winner is drew
+
+"""
 
 
 
